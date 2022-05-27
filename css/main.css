@@ -322,8 +322,7 @@ section {
   }
 }
 
-.chie {
-  background-image: url("/images/alex.jpg");
-  background-repeat: no-repeat;
+.alex {
+  display: absolute;
 }
 /*# sourceMappingURL=main.css.map */
