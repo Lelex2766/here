@@ -36,12 +36,12 @@
     <div class="hero">
 
         <div class="content">
-            <h1>Alice mets la moi</h1>
-            <div class="meet">  </div>
+            <h1 class="stagger1">Alice mets la moi</h1>
+            <div class="meet stagger1">  </div>
                 <span>Apprenez à me connaître ici-bas &#128071;</span>
                 <p>Suivez le levier ! !</p>
         
-        <svg class="scroll" xmlns="http://www.w3.org/2000/svg" width="43" height="83" viewBox="0 0 43 83">
+        <svg class="scroll stagger1" xmlns="http://www.w3.org/2000/svg" width="43" height="83" viewBox="0 0 43 83">
             <g id="Groupe_1" data-name="Groupe 1" transform="translate(-310 -730)">
               <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(310 730)" fill="none" stroke="#fff" stroke-width="4">
                 <rect width="43" height="83" rx="21.5" stroke="none"/>
@@ -253,6 +253,44 @@
             <a href="#"><img src="images/epitech.svg" alt="Fretastic"></a>
         </div>
     </section>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        var tl = gsap.timeline();
+        
+        tl.from('.content',{
+            y:'-30%',
+            opacity:0,
+            duration:2,
+            ease: Power4.easeOut
+        })
+        tl.from('.stagger1',{
+            opacity:0,
+            y: -50,
+            stagger: .3,
+            ease: Power4.easeOut,
+            duration:2,
+        },"-=1.5")
+        tl.from('.hero-design', {
+            opacity:0, y:50, ease: Power4.easeOut, duration:1
+        },"-=2")
+        gsap.from(".square.anim",{
+            stagger: .2,
+            scale:0.1,
+            duration: 1,
+            ease: Back.easeOut.config(1.7),
+        })
+        gsap.from(".transition2",{
+            scrollTrigger : {
+                trigger : '.transition2',
+                start: "top bottom",
+            },
+            y: 50,
+            opacity: 0,
+            duration : 1.2,
+            stagger: .3,
+        })
+    </script>
 </body>
 </html>
