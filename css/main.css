@@ -192,7 +192,7 @@ section {
   .left, .portfolio-left {
     display: -ms-grid;
     display: grid;
-    place-content: center;
+    place-content: left;
   }
   .right {
     margin-left: 2em;
@@ -278,9 +278,12 @@ section {
   }
   .hero-design {
     display: unset;
-    margin-left: -50%;
+    margin-left: -100%;
     margin-top: 15%;
     width: 100%;
+  }
+  .test {
+    background-image: url("/images/alex.svg");
   }
   .portfolio img {
     float: right;

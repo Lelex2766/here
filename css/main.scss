@@ -76,6 +76,7 @@ section {
     position:absolute;
     width:200px;
     height:200px;
+    
     border-radius: 50%;
     background: #E5D5FA;
     top:0;
@@ -149,7 +150,7 @@ margin-bottom :2em;
     }
     .left, .portfolio-left {
         display: grid;
-        place-content: center;
+        place-content: left;
     
     }
     .right{
@@ -226,9 +227,13 @@ margin-bottom :2em;
 }
 .hero-design {
     display : unset;
-    margin-left: -50%;
+    margin-left: -100%;
     margin-top: 15%;
-    width:100%
+    width:100%;
+    
+}
+.test{
+    background-image:url("/images/alex.svg")
 }
 .portfolio img {
     float:right;
@@ -263,3 +268,4 @@ margin-bottom :2em;
         padding: 9em 20em 6em 20em;
     }
 }
+
