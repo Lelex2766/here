@@ -1,0 +1,30 @@
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(317px, 737px);
+            transform: translate(317px, 737px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(317px, 769px);
+            transform: translate(317px, 769px);
+    z-index: 5;
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(317px, 737px);
+            transform: translate(317px, 737px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(317px, 769px);
+            transform: translate(317px, 769px);
+    z-index: 5;
+  }
+}
+/*# sourceMappingURL=anim.css.map */
