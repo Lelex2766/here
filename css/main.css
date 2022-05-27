@@ -95,6 +95,10 @@ section {
   position: relative;
 }
 
+.featured img {
+  float: right;
+}
+
 .featured::before {
   content: "";
   position: absolute;
@@ -278,7 +282,7 @@ section {
   }
   .hero-design {
     display: unset;
-    margin-left: -50%;
+    margin-left: -101%;
     margin-top: 15%;
     width: 100%;
   }
@@ -316,5 +320,10 @@ section {
   .hero .content {
     padding: 9em 20em 6em 20em;
   }
+}
+
+.chie {
+  background-image: url("/images/alex.svg");
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
