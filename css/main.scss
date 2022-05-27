@@ -39,7 +39,7 @@ header {
     }
     
 }
-.social-header, .hero-design {
+.social-header, .hero-design, .right {
     display:none;
 }
 .hero {
@@ -143,6 +143,9 @@ margin-bottom :2em;
 }
 
 @media only screen and (min-width: 800px) {
+    .right {
+        display:block;
+    }
     .featured, .portfolio {
         text-align:left;
     }
@@ -178,6 +181,7 @@ margin-bottom :2em;
         }
 }
 @media only screen and (min-width: 1050px) {
+    
     .hero {
         height: 90vh;
     }
