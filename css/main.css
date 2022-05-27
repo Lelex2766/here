@@ -102,8 +102,6 @@ section {
 .featured::before {
   content: "";
   position: absolute;
-  width: 500px;
-  height: 500px;
   border-radius: 50%;
   background: #E5D5FA;
   top: 0;
