@@ -4,9 +4,7 @@ body {
     margin: 0;
     font-family: 'Poppins', arial;
 }
-.rightz {
-    display:none;
-}
+
 ul {
     list-style-type: none;
     margin:0;
@@ -41,20 +39,19 @@ header {
     }
     
 }
-
 .social-header, .hero-design {
     display:none;
 }
 .hero {
     background : #6E00FF;
-    color:#FF64CB;
+    color:white;
     display:grid;
     text-align:center;
-    padding : 10em;
+    padding : 4em;
 }
 .meet{
     display:flex;
-    margin: 0 auto;
+    margin: 0 atuo;
     width : 200px;
     font-weight: bold;
     color: #FF64CB;
@@ -146,7 +143,6 @@ margin-bottom :2em;
 }
 
 @media only screen and (min-width: 800px) {
-    
     .featured, .portfolio {
         text-align:left;
     }
@@ -159,7 +155,11 @@ margin-bottom :2em;
         place-content: left;
     
     }
+    .right{
+        margin-left: 2em;
+        margin-top: 1em;
     
+    }
     .skills {
         margin-top: -5em;
         margin-bottom: -7em;
@@ -178,11 +178,6 @@ margin-bottom :2em;
         }
 }
 @media only screen and (min-width: 1050px) {
-    .rightz {
-        display:block;
-        height:800px;
-    padding-bottom:15px;
-    }
     .hero {
         height: 90vh;
     }
@@ -210,7 +205,7 @@ margin-bottom :2em;
         width: 7em;
         float:right;
         img{
-            width: 50px;
+            width: 20px;
         }
     }
 }
@@ -273,43 +268,11 @@ margin-bottom :2em;
         padding: 9em 20em 6em 20em;
     }
 }
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
-  
- 
-  input[type=submit] {
-    background-color: #6700EE;
-    
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-  input[type=submit]:hover {
-    background-color: pink;
-  }
-  
- 
-  .container {
-    border-radius: 5px;
-    
-    padding: 20px;
-  }
+
 .alex{
     display:absolute;
     
 }
-
 .circle{
     animation: circleAnim 1s infinite alternate-reverse
 }

@@ -1,4 +1,11 @@
-
+.featured::before {
+    content: "";
+    
+    width:500px;
+    height:500px;
+    
+    
+}
 .circle{
     animation: circleAnim 1s infinite alternate-reverse
 }
