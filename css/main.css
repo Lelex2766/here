@@ -5,6 +5,12 @@ body {
   font-family: 'Poppins', arial;
 }
 
+.rightz {
+  display: none;
+  height: 800px;
+  padding-bottom: 15px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -217,9 +223,8 @@ section {
 }
 
 @media only screen and (min-width: 1050px) {
-  .right {
+  .rightz {
     display: block;
-    height:800px;padding-bottom:1em;float:left;
   }
   .hero {
     height: 90vh;

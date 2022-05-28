@@ -4,7 +4,11 @@ body {
     margin: 0;
     font-family: 'Poppins', arial;
 }
-
+.rightz {
+    display:none;
+    height:800px;
+    padding-bottom:15px;
+}
 ul {
     list-style-type: none;
     margin:0;
@@ -176,7 +180,7 @@ margin-bottom :2em;
         }
 }
 @media only screen and (min-width: 1050px) {
-    .right {
+    .rightz {
         display:block;
     }
     .hero {
