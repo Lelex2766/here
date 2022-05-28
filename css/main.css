@@ -182,9 +182,6 @@ section {
 }
 
 @media only screen and (min-width: 800px) {
-  .right {
-    display: block;
-  }
   .featured, .portfolio {
     text-align: left;
   }
@@ -224,6 +221,9 @@ section {
 }
 
 @media only screen and (min-width: 1050px) {
+  .right {
+    display: block;
+  }
   .hero {
     height: 90vh;
   }
