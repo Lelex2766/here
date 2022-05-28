@@ -6,6 +6,10 @@
     
     
 }
+.right {
+    display: none;
+    height:800px;padding-bottom:1em;float:left;
+}
 .circle{
     animation: circleAnim 1s infinite alternate-reverse
 }
