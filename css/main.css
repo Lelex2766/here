@@ -70,7 +70,7 @@ header ul a {
   display: -ms-grid;
   display: grid;
   text-align: center;
-  padding: 4em;
+  padding: 10em;
 }
 
 .meet {
@@ -353,10 +353,6 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 20px;
-}
-
-.alex {
-  display: absolute;
 }
 
 .circle {

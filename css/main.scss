@@ -51,7 +51,7 @@ header {
     color:white;
     display:grid;
     text-align:center;
-    padding : 4em;
+    padding : 10em;
 }
 .meet{
     display:flex;
@@ -304,10 +304,7 @@ input[type=text], select, textarea {
     
     padding: 20px;
   }
-.alex{
-    display:absolute;
-    
-}
+
 
 .circle{
     animation: circleAnim 1s infinite alternate-reverse
