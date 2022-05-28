@@ -196,10 +196,6 @@ section {
     display: grid;
     place-content: left;
   }
-  .right {
-    margin-left: 2em;
-    margin-top: 1em;
-  }
   .skills {
     margin-top: -5em;
     margin-bottom: -7em;
