@@ -126,7 +126,7 @@ header {
 
 .right {
     
-    height:800px;padding-bottom:1em;float:left;
+    height:800px;padding-bottom:1em;float:left;display:none
 }
 .social-header, .hero-design, .nav-container {
     display:none;
@@ -231,7 +231,7 @@ border-radius :1em;
 margin-bottom :2em;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 800px) {
     .right {
         display:block;
     }
