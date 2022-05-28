@@ -260,7 +260,7 @@ section {
     float: right;
   }
   .social-header ul img {
-    width: 20px;
+    width: 50px;
   }
   .hero {
     display: -ms-grid;
@@ -321,6 +321,35 @@ section {
   .hero .content {
     padding: 9em 20em 6em 20em;
   }
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #6700EE;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: pink;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .alex {

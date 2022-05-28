@@ -209,7 +209,7 @@ margin-bottom :2em;
         width: 7em;
         float:right;
         img{
-            width: 20px;
+            width: 50px;
         }
     }
 }
@@ -272,11 +272,43 @@ margin-bottom :2em;
         padding: 9em 20em 6em 20em;
     }
 }
-
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #6700EE;
+    
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: pink;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
 .alex{
     display:absolute;
     
 }
+
 .circle{
     animation: circleAnim 1s infinite alternate-reverse
 }
