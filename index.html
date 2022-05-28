@@ -35,10 +35,10 @@
     <div class="hero">
 
         <div class="content">
-            <h1 class="stagger1">Moïra décalque mon trou du cul stp</h1>
+            <h1 class="stagger1">Bienvenue chez moi</h1>
             <div class="meet stagger1">  </div>
                 <span>Apprenez à me connaître ici-bas &#128071;</span>
-                <p>Suivez le levier ! !</p>
+                <p>Suivez le levier !</p>
         
         <svg class="scroll stagger1" xmlns="http://www.w3.org/2000/svg" width="43" height="83" viewBox="0 0 43 83">
             <g id="Groupe_1" data-name="Groupe 1" transform="translate(-310 -730)">
@@ -101,15 +101,15 @@
             <ul>
                 <li class="transition2">
                     <div class="icon-container one">
-                        <img src="images/Logo.png" alt="UI/UX Icon">
+                        <img src="images/adv.jpg" alt="UI/UX Icon">
                     </div>
-                    <p class="'skill-title">UI UX Design</p>
-                    <p class="featured-desc skill-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, architecto! Quisquam eius voluptatum nam aspernatur alias suscipit enim optio expedita eaque cum quod repudiandae magni, quaerat atque beatae! Quia dignissimos obcaecati eveniet sed vel dolores aperiam consequuntur error, qui officiis?</p>
+                    <p class="'skill-title">Gestion de portefeuille client</p>
+                    <p class="featured-desc skill-desc">Déterminer des objectifs commerciaux.<br> Définir les typologies de clients. <br>Segmenter le portefeuille client avec brio.<br>Définir un plan d'action par segment de clients.<br>Piloter le portefeuille client finement.</p>
 
             </li>
             <li class="transition2">
                 <div class="icon-container one">
-                    <img src="images/Logo.png" alt="UI/UX Icon">
+                    <img src="images/epitech.svg" alt="UI/UX Icon">
                 </div>
                 <p class="'skill-title">UI UX Design</p>
                 <p class="featured-desc skill-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, incidunt.</p>
@@ -119,8 +119,9 @@
             <div class="icon-container one">
                 <img src="images/Logo.png" alt="UI/UX Icon">
             </div>
-            <p class="'skill-title">UI UX Design</p>
-            <p class="featured-desc skill-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, incidunt.</p>
+            <p class="'skill-title">3d modeling</p>
+            <p class="featured-desc skill-desc">Utilisation de Rhino 7.<br> Utilisation de Sketch up
+            </p>
 
     </li>
 
@@ -165,8 +166,38 @@
                     <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, necessitatibus.</p>
                 </div>
             </div>
-            <a href="#"><img src="images/epitech.svg" alt="Fretastic"></a>
+           <div> <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/img1.jpg" style="width:400px">
+              <div class="text">Caption Text</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/img2.jpg" style="width:400px">
+              <div class="text">Caption Two</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/img3.jpg" style="width:400px">
+              <div class="text">Caption Three</div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+          
+          </div>
+          
+          
+          
+          
         </div>
+
+
+
+
+
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
                 <div class="inner">
@@ -227,18 +258,7 @@
             </div>
             <a href="#"><img src="images/epitech.svg" alt="Fretastic"></a>
         </div>
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">
-                        projet
-                    </p>
-                    <p class="featured-title">titre de projet</p>
-                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, necessitatibus.</p>
-                </div>
-            </div>
-            <a href="#"><img src="images/epitech.svg" alt="Fretastic"></a>
-        </div>
+       
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
                 <div class="inner">
@@ -255,6 +275,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
+ let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides","mySlides2");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); 
+}
         gsap.registerPlugin(ScrollTrigger);
         var tl = gsap.timeline();
         
