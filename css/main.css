@@ -164,7 +164,7 @@ header ul a {
   float: left;
 }
 
-.social-header, .hero-design {
+.social-header, .hero-design, .nav-container {
   display: none;
 }
 
@@ -213,6 +213,7 @@ section {
 .featured::before {
   content: "";
   position: absolute;
+  width: 100px;
   border-radius: 50%;
   background: #E5D5FA;
   top: 0;
