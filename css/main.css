@@ -53,7 +53,11 @@ header ul a {
   padding: 0 1em;
 }
 
-.social-header, .hero-design, .right {
+.right {
+  display: none;
+}
+
+.social-header, .hero-design {
   display: none;
 }
 

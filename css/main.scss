@@ -39,7 +39,10 @@ header {
     }
     
 }
-.social-header, .hero-design, .right {
+.right {
+    display: none;
+}
+.social-header, .hero-design {
     display:none;
 }
 .hero {
