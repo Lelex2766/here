@@ -6,8 +6,6 @@ body {
 }
 .rightz {
     display:none;
-    height:800px;
-    padding-bottom:15px;
 }
 ul {
     list-style-type: none;
@@ -182,6 +180,8 @@ margin-bottom :2em;
 @media only screen and (min-width: 1050px) {
     .rightz {
         display:block;
+        height:800px;
+    padding-bottom:15px;
     }
     .hero {
         height: 90vh;
