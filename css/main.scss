@@ -128,9 +128,10 @@ header {
     
     height:800px;padding-bottom:1em;float:left;display:none
 }
-.social-header, .hero-design, .nav-container {
+ .social-header, .hero-design, .nav-container {
     display:none;
 }
+
 .hero {
     background : #6E00FF;
     color:white;
@@ -166,7 +167,7 @@ section {
 .featured::before {
     content: "";
     position:absolute;
-    width: 10px;
+    width: auto;
     
     border-radius: 50%;
     background: #E5D5FA;
